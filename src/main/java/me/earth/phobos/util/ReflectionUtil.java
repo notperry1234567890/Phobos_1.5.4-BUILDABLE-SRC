@@ -58,13 +58,6 @@ public class ReflectionUtil
         modifiers.setInt(instance, instance.getModifiers() & 0xFFFFFFEF);
     }
     
-    public static void invokeMethod(final String method, final Class<?> clazz) {
-        try {
-            clazz.getMethod(method, (Class<?>[])null).invoke(clazz.newInstance(), (Object[])null);
-        }
-        catch (Throwable t) {}
-    }
-    
     public static void makeImmutable(final Member instance) throws NoSuchFieldException, IllegalAccessException {
         Objects.requireNonNull(instance);
         final Field modifiers = Field.class.getDeclaredField("modifiers");
