@@ -257,6 +257,7 @@ public class ModuleManager extends Feature
         this.modules.add(new Components());
         this.modules.add(new StreamerMode());
         this.modules.add(new Capes());
+        this.modules.add(new AutoGG());
         this.modules.add(new Colors());
         (this.animationThread = new Animation()).start();
     }
