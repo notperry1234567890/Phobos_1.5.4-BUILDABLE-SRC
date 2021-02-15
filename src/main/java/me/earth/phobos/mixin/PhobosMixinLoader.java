@@ -24,7 +24,7 @@ public class PhobosMixinLoader implements IFMLLoadingPlugin
     }
     
     public String[] getASMTransformerClass() {
-        return new String[] { "org.spongepowered.tools.obfuscation.MixinClassTransformer" };
+        return new String[0];
     }
     
     public String getModContainerClass() {
