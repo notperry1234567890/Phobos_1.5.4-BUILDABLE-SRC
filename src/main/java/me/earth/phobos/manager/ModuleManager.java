@@ -89,6 +89,7 @@ import me.earth.phobos.features.modules.movement.Step;
 import me.earth.phobos.features.modules.movement.Speed;
 import me.earth.phobos.features.modules.movement.Velocity;
 import me.earth.phobos.features.modules.movement.Strafe;
+import me.earth.phobos.features.modules.misc.AutoGG;
 import me.earth.phobos.features.modules.misc.Bypass;
 import me.earth.phobos.features.modules.misc.Translator;
 import me.earth.phobos.features.modules.misc.RPC;
