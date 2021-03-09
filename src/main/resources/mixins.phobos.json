@@ -26,7 +26,6 @@
     "MixinKeyBinding",
     "MixinLayerBipedArmor",
     "MixinMinecraft",
-    "MixinNettyCompressionDecoder",
     "MixinNetworkManager",
     "MixinPlayerControllerMP",
     "MixinRender",
