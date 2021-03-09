@@ -2,22 +2,22 @@
 // Decompiled by Procyon v0.5.36
 // 
 
-package me.earth.phobos.mixin.mixins;
+package me.perry.furryware.mixin.mixins;
 
 import net.minecraft.client.multiplayer.PlayerControllerMP;
-import me.earth.phobos.features.modules.player.MultiTask;
+import me.perry.furryware.features.modules.player.MultiTask;
 import net.minecraft.client.entity.EntityPlayerSP;
-import me.earth.phobos.features.modules.render.NoRender;
+import me.perry.furryware.features.modules.render.NoRender;
 import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.crash.CrashReport;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.lwjgl.opengl.Display;
-import me.earth.phobos.features.modules.client.Managers;
+import me.perry.furryware.features.modules.client.Managers;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import org.spongepowered.asm.mixin.injection.callback.LocalCapture;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import me.earth.phobos.Phobos;
+import me.perry.furryware.Phobos;
 import org.lwjgl.input.Keyboard;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import net.minecraft.client.Minecraft;
